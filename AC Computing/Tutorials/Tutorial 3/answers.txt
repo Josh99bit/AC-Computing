@@ -1,0 +1,63 @@
+Q1:
+4
+
+Q2:
+'ow'
+
+Q3:
+str("This is a string")
+("This is a string")
+"This is a string"
+"This is a string" + ""
+
+Q4:
+s1[7:]
+s1[7]
+s1[-1:]
+
+Q5:
+"HelloWorld!"
+
+Q6:
+'Hello! Good bye!'
+
+Q7:
+'One 4, Two 2, Three 3, Four 1'
+
+Q8:
+s1[2] + s1[5]
+s1[4:6]
+s1[4] + s1[3]
+
+Q9:
+len(s1)
+
+Q10:
+"a-b-c"
+"axbxc".replace("x", "-")
+
+Q11:
+19
+
+Q12:
+len(S1) == 3
+S4.isalnum()
+len(S5) == 9
+
+Q13:
+"a" > "A"
+"Small" > "Big"
+"big" > "Small"
+
+Q14:
+'ai'
+
+Q15:
+S1[3] > S2[3]
+S1[0:4:3] > S2[1:5:2]
+
+Q16:
+'mpi'
+
+Q17:
+'nim'

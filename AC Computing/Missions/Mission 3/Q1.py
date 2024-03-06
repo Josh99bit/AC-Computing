@@ -1,1 +1,2 @@
-reverse = lambda s : s[::-1]
+def reverse (s):
+  return s[::-1]

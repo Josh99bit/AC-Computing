@@ -1,14 +1,17 @@
 def is_palindrome(s):
-    newS=remove_spaces(remove_punc(s)).upper()
-    length=len(newS)
-    if length%2==0:
-        h=int(length/2)
-        firstHalf=newS[0:h]
-        secondHalf=newS[h:length][::-1]
-        return (firstHalf==secondHalf)
+    formattedS = remove_spaces(remove_punc(s)).upper()
+    length = len(formattedS)
+
+    if length % 2 == 0:
+        h = int(length / 2)
+        firstHalf = formattedS[0:h]
+        secondHalf = formattedS[h:length]
+        reversedSecondHalf=secondHalf[::-1]
+        return (firstHalf == reversedSecondHalf)
     else:
-        h=int(length//2)
-        firstHalf=newS[0:h]
-        secondHalf=newS[h+1:length][::-1]
-        return (firstHalf==secondHalf)
+        h = int(length // 2)
+        firstHalf = formattedS[0:h]
+        secondHalf = formattedS[h+1:length]
+        reversedSecondHalf=secondHalf[::-1]
+        return (firstHalf == reversedSecondHalf)
     

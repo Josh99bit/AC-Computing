@@ -1,8 +1,0 @@
-Q1:
-3456
-
-Q2:
-605
-
-Q6:
-It loops through all the positive integers that are equal to or smaller than the number and multiplies it with the rest 

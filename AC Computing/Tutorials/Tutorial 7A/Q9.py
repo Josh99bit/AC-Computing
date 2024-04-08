@@ -12,7 +12,7 @@ def gcd(N1,N2):
     for n in factorsOfN1:
         if n in factorsOfN2:
             if n > LCF:
-                LDF = n
-    return LDF
+                LCF = n
+    return LCF
             
 

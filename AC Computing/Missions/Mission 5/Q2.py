@@ -4,8 +4,12 @@ def keyword_decipher(text, keyword):
     for char in keyword:
         if char not in unique_keyword and char in alphabets:
             unique_keyword += char
+    
+    remaining_letters = []
+    for letter in alphabets:
+         if letter not in unique_keyword:
+             remaining_letters.append(letter)
 
-    remaining_letters = [letter for letter in alphabets if letter not in unique_keyword]
     cipher_alphabet = list(unique_keyword) + remaining_letters
 
     result = ""

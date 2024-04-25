@@ -1,0 +1,11 @@
+Q1:
+s.isdigit()
+
+Q2:
+s.isupper()
+
+Q3:
+It converts all uppercase letters in the input string to lowercase, and vice versa.
+
+Q5:
+No, a new function is not needed. As there are 26 letters in the English alphabet, rot13 is able to both encrypt and decrypt a message.
